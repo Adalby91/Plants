@@ -4,16 +4,33 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Plants</title>
+    <link rel="icon" href="./assets/favicon/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="header">
       <div class="container">
         <section class="navbar">
+          <div class="logo">
+            <a class="logo-link" href="#">
+              <img src="./assets/SVG/logo.svg" alt="logo" class="logo-img" />
+            </a>
+          </div>
           <nav class="nav-bar">
             <ul class="nav-list">
               <li class="nav-list__item">
-                <a href="#" class="header-link">HOME</a>
+                <a href="#" class="header-link _active">Home</a>
               </li>
               <li class="nav-list__item">
                 <a href="#" class="header-link">About us</a>
@@ -35,9 +52,15 @@
     <main class="main">
       <div class="container">
         <section class="welcome">
+          <img
+            src="./assets/img/leafs.png"
+            height="407px"
+            width="448px"
+            alt="leafs"
+          />
           <article class="welcome-area">
-            <h2>
-              We grow plants and give<br />
+            <h2 class="welcome-heading">
+              We grow <span>plants</span> and give<br />
               you oxygen
             </h2>
             <p class="welcome-text">
@@ -50,84 +73,217 @@
         </section>
 
         <section class="about">
-          <article class="about-text">
-            <h3>We are professional experienced gardeners</h3>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged.
+          <article class="about-area">
+            <h2 class="about-heading">
+              We are <span>professional experienced</span> gardeners
+            </h2>
+            <p class="about-text">
+              Lorem Ipsum is simply dummy text of the printing and<br />
+              typesetting industry. Lorem Ipsum has been the industry's<br />
+              standard dummy text ever since the 1500s, when an unknown<br />
+              printer took a galley of type and scrambled it to make a type<br />
+              specimen book. It has survived not only five centuries, but
+              also<br />
+              the leap into electronic typesetting, remaining essentially<br />
+              unchanged.
             </p>
           </article>
+          <img
+            src="./assets/img/houseplant.png"
+            width="464px"
+            height="479px"
+            alt="houseplant"
+          />
         </section>
         <section class="service">
           <div class="service-top">
-            <h3>Service and our projects</h3>
-            <nav class="service-btns">
-              <ul class="service-list">
-                <li class="service-list__item">
-                  <a class="service-btn">Gardens</a>
+            <h2 class="service-heading">Service and our projects</h2>
+            <nav class="service-nav">
+              <ul class="service-nav-list">
+                <li class="service-nav-list__item">
+                  <a href="#" class="service-btn">Gardens</a>
                 </li>
-                <li class="service-list__item">
-                  <a class="service-btn">Lawn</a>
+                <li class="service-nav-list__item">
+                  <a href="#" class="service-btn">Lawn</a>
                 </li>
-                <li class="service-list__item">
-                  <a class="service-btn">PLanting</a>
+                <li class="service-nav-list__item">
+                  <a href="#" class="service-btn">PLanting</a>
                 </li>
               </ul>
             </nav>
-            <div class="service-bootom">
-              <ul>
-                <li>
-                  <img src="./assets/IMG/first-service.jpg" alt="1" />
-                  <div class="service-text">
-                    <h3>Garden care</h3>
-                    <p>Lorem Ipsum has been the industry</p>
-                  </div>
+          </div>
+
+          <ul class="service-list">
+            <li class="service-list__item">
+              <img src="./assets/IMG/first.jpg" alt="1" class="service-img" />
+              <div class="service-text">
+                <h3 class="service-title">Garden care</h3>
+                <p class="service-desc">Lorem Ipsum has been the industry</p>
+              </div>
+            </li>
+            <li class="service-list__item">
+              <img
+                src="./assets/IMG/second-service.jpg"
+                alt="2"
+                class="service-img"
+              />
+              <div class="service-text">
+                <h3 class="service-title">Planting</h3>
+                <p class="service-desc">Lorem Ipsum has been the industry</p>
+              </div>
+            </li>
+            <li class="service-list__item">
+              <img
+                src="./assets/IMG/third-service.jpg"
+                alt="3"
+                class="service-img"
+              />
+              <div class="service-text">
+                <h3 class="service-title">Lawn care</h3>
+                <p class="service-desc">Lorem Ipsum has been the industry</p>
+              </div>
+            </li>
+            <li class="service-list__item">
+              <img
+                src="./assets/IMG/fourth-service.jpg"
+                alt="4"
+                class="service-img"
+              />
+              <div class="service-text">
+                <h3 class="service-title">Planting</h3>
+                <p class="service-desc">Lorem Ipsum has been the industry</p>
+              </div>
+            </li>
+            <li class="service-list__item">
+              <img
+                src="./assets/IMG/fifth-service.jpg"
+                alt="5"
+                class="service-img"
+              />
+              <div class="service-text">
+                <h3 class="service-title">Garden care</h3>
+                <p class="service-desc">Lorem Ipsum has been the industry</p>
+              </div>
+            </li>
+            <li class="service-list__item">
+              <img
+                src="./assets/IMG/sixth-service.jpg"
+                alt="6"
+                class="service-img"
+              />
+              <div class="service-text">
+                <h3 class="service-title">Planting</h3>
+                <p class="service-desc">Lorem Ipsum has been the industry</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <section class="prices">
+          <div class="prices-wrapper">
+            <article class="prices-inner">
+              <h2 class="prices-heading">Prices</h2>
+              <ul class="prices-list">
+                <li class="prices-list__item">
+                  <a href="#" class="prices-btn">Basics</a>
                 </li>
-                <li>
-                  <img scr=./assets/IMG/second-service.jpg alt="2">
-                  <div class="service-text">
-                    <h3>Garden care</h3>
-                    <p>Lorem Ipsum has been the industry</p>
-                  </div>
+                <li class="prices-list__item">
+                  <a href="#" class="prices-btn">Standard</a>
                 </li>
-                <li>
-                  <img src="./assets/IMG/third-service.jpg" alt="3" />
-                  <div class="service-text">
-                    <h3>Garden care</h3>
-                    <p>Lorem Ipsum has been the industry</p>
-                  </div>
-                </li>
-                <li>
-                  <img src="./assets/IMG/fouth-service.jpg" alt="4" />
-                  <div class="service-text">
-                    <h3>Garden care</h3>
-                    <p>Lorem Ipsum has been the industry</p>
-                  </div>
-                </li>
-                <li>
-                  <img src="./assets/IMG/first-service.jpg" alt="1" />
-                  <div class="service-text">
-                    <h3>Garden care</h3>
-                    <p>Lorem Ipsum has been the industry</p>
-                  </div>
-                </li>
-                <li>
-                  <img src="./assets/IMG/first-service.jpg" alt="1" />
-                  <div class="service-text">
-                    <h3>Garden care</h3>
-                    <p>Lorem Ipsum has been the industry</p>
-                  </div>
+                <li class="prices-list__item">
+                  <a href="#" class="prices-btn">Pro care</a>
                 </li>
               </ul>
+            </article>
+
+            <aside class="prices-aside">
+              <div class="prices-area">
+                <h2 class="prices-heading _aside-heading">
+                  Our best <span>gardeners</span> are ready to help you
+                </h2>
+                <a class="btn">Contact us</a>
+              </div>
+              <img
+                src="./assets/img/leafs-prices.png"
+                height="175px"
+                width="152px"
+                alt="leafs-prices"
+                class="prices-img"
+              />
+            </aside>
+          </div>
+        </section>
+
+        <section class="contact">
+          <div class="contact-wrapper">
+            <img
+              src="/assets/img/contact_woman1.png"
+              alt="contact_woman1"
+              height="496px"
+              width="400px"
+              class="contact-img"
+            />
+            <h2 class="contact-heading">Contact us</h2>
+            <div class="city-search">
+              <p clas="city-text">City</p>
             </div>
           </div>
         </section>
       </div>
     </main>
-    <footer></footer>
+    <footer class="footer">
+      <div class="container">
+        <section class="footer-answer">
+          <div class="footer-data"><p>© 2022 github</p></div>
+          <p>Rolling Scopes School</p>
+          <ul class="social-list">
+            <li class="social-list__item">
+              <a class="social-link" href="http://instagram.com/" _blank>
+                <img
+                  class="socail-img"
+                  src="./assets/SVG/inst.svg"
+                  alt="insta"
+                  width="26.66px"
+                  height="26.65px"
+                />
+              </a>
+            </li>
+            <li class="social-list__item">
+              <a class="social-link" href="https://www.facebook.com/" _blank>
+                <img
+                  class="socail-img"
+                  src="./assets/SVG/fb.svg"
+                  alt="fb"
+                  width="16.67px"
+                  height="26.67px"
+                />
+              </a>
+            </li>
+            <li class="social-list__item">
+              <a class="social-link" href="https://twitter.com/" _blank>
+                <img
+                  class="socail-img"
+                  src="./assets/SVG/twitter.svg"
+                  alt="tw"
+                  width="26.67px"
+                  height="21.67px"
+                />
+              </a>
+            </li>
+            <li class="social-list__item">
+              <a class="social-link" href="https://ru.pinterest.com/" _blank>
+                <img
+                  class="socail-img"
+                  src="./assets/SVG/pinterest.svg"
+                  alt="pinterest"
+                  height="26.57px"
+                  width="26.67px"
+                />
+              </a>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </footer>
   </body>
 </html>
